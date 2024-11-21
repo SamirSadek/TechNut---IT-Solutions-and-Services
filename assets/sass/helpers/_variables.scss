@@ -1,0 +1,34 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+
+
+// fonts
+$base-font-size: 15;
+$base-font: 'Outfit', sans-serif;
+$heading-font:'Outfit', sans-serif;
+
+
+// color
+$dark-gray: #151924;
+$body-color: #8683A1;
+$white: #fff;
+$light: #F6F4FF;
+$black: #000;
+$rad: #FE4040;
+$small-black: #333;
+$cyan: #848892;
+
+$theme-primary-color:#FED201;
+$theme-primary-color-s2:#7665FF;
+$theme-primary-color-s3:#40C9FF;
+$body-bg-color: #fff;
+$section-bg-color: #F5F5F5;
+$text-color: #6e6e6e;
+$text-color-s2: #8683A1;
+$heading-color: $dark-gray;
+$border-color: #e2e2e2;
+$border-color-s2: #40C9FF;
+$border-color-s3: #7665FF;

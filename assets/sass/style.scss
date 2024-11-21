@@ -1,0 +1,131 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     TechNut - IT Solutions and Services HTML5 Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 topbar
+	2.2 navigation
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 wpo-fun-fact-section 
+	3.3 technut-about-section
+	3.4 technut-service-section
+	3.5 technut-cta-section
+	3.6 technut-team-section
+	3.7 technut-project-section
+	3.8 technut-testimonial-section
+	3.9 wpo-blog-section
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1 technut-team-section-s2
+   5.2 wpo-partners-section
+   5.3 wpo-pricing-section
+
+6. wpo-service-single
+
+7. wpo-project-single
+
+8. wpo-team-single
+
+9. wpo-shop-page
+
+10. wpo-shop-single-page
+
+11. wpo-cart-page-style
+
+12. wpo-checkout-page-style
+
+13. wpo-faq-page
+
+14. wpo-contact-pg-section
+
+15. wpo-blog-pg-section
+
+16. wpo-blog-single-section
+
+17. error-404-section
+
+----------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/pagination";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+@import "page/home-style2";
+
+
+
+
+@import "page/service-single";
+
+@import "page/project-single";
+
+@import "page/team-single";
+
+@import "page/shop";
+
+@import "page/shop-single";
+
+@import "page/cart";
+
+@import "page/checkout";
+
+@import "page/faq";
+
+@import "page/contact";
+
+
+@import "page/_blog";
+
+@import "page/_blog-single";
+
+@import "page/error-404";
+
+
+
+
